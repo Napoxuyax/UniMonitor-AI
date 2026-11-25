@@ -1,0 +1,36 @@
+{
+  "columns": {
+    "university": "REPLACE_UNIVERSITY",
+    "region": "REPLACE_REGION",
+    "year": "REPLACE_YEAR",
+    "indicator": "REPLACE_INDICATOR",
+    "value": "REPLACE_VALUE"
+  },
+  "indicators": {
+    "students": {
+      "code": "REPLACE_STUDENTS",
+      "unit": "",
+      "definition": ""
+    },
+    "score": {
+      "code": "REPLACE_SCORE",
+      "unit": "",
+      "definition": ""
+    },
+    "research": {
+      "code": "REPLACE_RESEARCH",
+      "unit": "",
+      "definition": ""
+    },
+    "income": {
+      "code": "REPLACE_INCOME",
+      "unit": "",
+      "definition": ""
+    },
+    "employment": {
+      "code": "REPLACE_EMPLOYMENT",
+      "unit": "",
+      "definition": ""
+    }
+  }
+}
