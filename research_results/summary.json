@@ -1,0 +1,7 @@
+{
+  "dataset": "Синтетический демонстрационный набор",
+  "rows": 420,
+  "winner": "Ridge alpha=0.1",
+  "test_year": 2025,
+  "convergence_warnings": 0
+}
