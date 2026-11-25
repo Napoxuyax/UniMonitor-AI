@@ -1,0 +1,38 @@
+{
+  "source": "Синтетический учебный набор",
+  "year_offset": 0,
+  "input_rows": 420,
+  "accepted_rows": 420,
+  "rejected_rows": 0,
+  "mapping": {
+    "university": "university",
+    "region": "region",
+    "year": "year",
+    "students": "students",
+    "score": "score",
+    "research": "research",
+    "income": "income",
+    "employment": "employment"
+  },
+  "missing_by_field": {
+    "university": 0,
+    "region": 0,
+    "year": 0,
+    "students": 0,
+    "score": 0,
+    "research": 0,
+    "income": 0,
+    "employment": 0
+  },
+  "years": [
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "universities": 60,
+  "input_sha256": "41b89d2add71f1d607bd6ce671f84565d92a72399d99275309e3c5597c2ef5f8"
+}
