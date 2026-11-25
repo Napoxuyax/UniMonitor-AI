@@ -1,0 +1,38 @@
+{
+  "target": "employment",
+  "features": [
+    "students",
+    "score",
+    "research",
+    "income",
+    "employment"
+  ],
+  "validation_years": [
+    2017
+  ],
+  "test_year": 2018,
+  "train_rows": 1876,
+  "test_rows": 1191,
+  "winner_validation": "Ridge 0.1",
+  "year_definition": "Год мониторинга, сведения за предыдущий год",
+  "metrics": [
+    {
+      "model": "MLP (32, 16, 8)",
+      "MAE": 15.460675201878855,
+      "RMSE": 22.565224004298393,
+      "R2": 0.4152204792681885
+    },
+    {
+      "model": "Ridge 0.1",
+      "MAE": 15.689009751510072,
+      "RMSE": 22.589505305426545,
+      "R2": 0.4139612985784793
+    },
+    {
+      "model": "Наивный прогноз",
+      "MAE": 12.92191435768262,
+      "RMSE": 25.654325492141847,
+      "R2": 0.24415271402238625
+    }
+  ]
+}
