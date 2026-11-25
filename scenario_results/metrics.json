@@ -1,0 +1,15 @@
+{
+  "model": "Ridge alpha=1 (фиксированная конфигурация)",
+  "nominal_coverage": 0.9,
+  "observed_test_coverage": 0.85,
+  "radius": 1.7726526621446084,
+  "test_year": 2025,
+  "calibration_count": 240,
+  "test_count": 60,
+  "baseline_mae": 1.0198979258432392,
+  "changes_percent": {
+    "research": 10,
+    "income": 5
+  },
+  "interval_note": "Эмпирический интервал; покрытие будущих данных и сценариев не гарантировано."
+}
