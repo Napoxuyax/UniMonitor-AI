@@ -1,0 +1,9 @@
+{
+  "train": 300,
+  "calibration": 60,
+  "test": 60,
+  "injected": 15,
+  "calibration_year": 2024,
+  "test_year": 2025,
+  "selected": "AE (8, 2, 8)"
+}
