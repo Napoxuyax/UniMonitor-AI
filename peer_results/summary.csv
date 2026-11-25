@@ -1,0 +1,5 @@
+indicator,observations,below_q1,median_percentile,below_pct
+employment,60,11,50.0,18.333333333333332
+income,60,10,50.0,16.666666666666668
+research,60,6,50.0,10.0
+score,60,13,50.0,21.666666666666668

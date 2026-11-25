@@ -1,0 +1,8 @@
+{
+  "year": 2025,
+  "universities": 60,
+  "neighbors": 10,
+  "comparisons": 240,
+  "method": "nearest absolute log student count; same year; exclude target",
+  "limitations": "Size only; not causal; no adjustment for profile or region."
+}
