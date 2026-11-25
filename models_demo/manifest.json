@@ -1,0 +1,52 @@
+{
+  "source": "Синтетический набор make_demo.py; не официальная статистика",
+  "kind": "demo",
+  "dataset_sha256": "41b89d2add71f1d607bd6ce671f84565d92a72399d99275309e3c5597c2ef5f8",
+  "python": "3.13.5",
+  "sklearn": "1.8.0",
+  "numpy": "2.3.5",
+  "pandas": "2.2.3",
+  "features": [
+    "students",
+    "score",
+    "research",
+    "income",
+    "employment"
+  ],
+  "test_year": 2025,
+  "train_rows": 300,
+  "test_rows": 60,
+  "models": [
+    {
+      "file": "model1.joblib",
+      "configuration": "MLP (32, 16, 8), alpha=0.1",
+      "metrics": {
+        "MAE": 0.9404626917579545,
+        "RMSE": 1.218183750590608,
+        "R2": 0.9702753409106218
+      }
+    },
+    {
+      "file": "model2.joblib",
+      "configuration": "Ridge alpha=0.1",
+      "metrics": {
+        "MAE": 0.9474257751406985,
+        "RMSE": 1.2250864139367665,
+        "R2": 0.969937525496092
+      }
+    }
+  ],
+  "baseline": {
+    "MAE": 1.372333333333333,
+    "RMSE": 1.7355296981997552,
+    "R2": 0.9396669365437663
+  },
+  "files": {
+    "test.csv": "09127c887ac986dcb2541f759d0b4b5db3ae1978d46347b709457d8da215984c",
+    "model2.joblib": "b20fc921e239fd62851dc1a7905381ead6af3aa43f33d1e747ab88deb4ed88bc",
+    "predictions.csv": "3d9f6b2be81f92b76b5aed26d726fbfd18c29e8f00f39f16ec0677ea4504939f",
+    "train.csv": "a0eac8256d6688e587543b931be0bb92bfcb7e85ddd0d10aea8377672531748f",
+    "model1.joblib": "981398d7aa5b00bc472a6349f35cdfbf80c5c9514157ab284ba387e7c347c580",
+    "validation.csv": "ca06f1e8bdcc8acab01befb51f9b0255184353214cf10aac6c9161642350ab93"
+  }
+}
