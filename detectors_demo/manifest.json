@@ -1,0 +1,44 @@
+{
+  "train": 300,
+  "calibration": 60,
+  "test": 60,
+  "injected": 15,
+  "calibration_year": 2024,
+  "test_year": 2025,
+  "selected": "AE (8, 2, 8)",
+  "models": [
+    {
+      "file": "model3.joblib",
+      "name": "AE (8, 2, 8)",
+      "threshold": 0.009656893362824541
+    },
+    {
+      "file": "model4.joblib",
+      "name": "AE (16, 3, 16)",
+      "threshold": 0.008830365261413908
+    },
+    {
+      "file": "model5.joblib",
+      "name": "AE (16, 8, 2, 8, 16)",
+      "threshold": 0.027940823879951067
+    },
+    {
+      "file": "model6.joblib",
+      "name": "Isolation Forest",
+      "threshold": 0.5810011355046143
+    }
+  ],
+  "dataset_sha256": "41b89d2add71f1d607bd6ce671f84565d92a72399d99275309e3c5597c2ef5f8",
+  "kind": "demo",
+  "files": {
+    "test.csv": "2c57cb7ecd911772b1494ec336b2281f9b72e0a98635fc93d9e1d6f99c680a3b",
+    "model5.joblib": "3e51e518c86c86981583468ad2c2acc00ef14683d6e006707783940f3a4bb13f",
+    "model6.joblib": "56fb03fd1626998d11086eb1d35e189fb0b34358d061b06a2f82d5311b1d0c5b",
+    "model3.joblib": "497cadca0d4160bd78e205a52bfd4fe0d55f5bcbff40d0d6b6d5cf2961746471",
+    "predictions.csv": "897e009717c3a9e882c7a599c1a0473c6e3a26d53ea5d87e255a3137a2fba7c9",
+    "model4.joblib": "f526a6514bc078033787241c92e67540655f6805dde6a9412b95fbdce418c0f1",
+    "train.csv": "24e50e7534063fbcb68adbf383117b16441968c7eac704857ebffdb4b826a097",
+    "calibration.csv": "dc0056b7459e23a2390c664edb83df1f858a263da2eee51c39b1e586319239cb",
+    "metrics.csv": "8152539c93047494b2bcc2795edb9c414103c543b97e79557586b0c274f21a29"
+  }
+}
