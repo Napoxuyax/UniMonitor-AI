@@ -1,0 +1,11 @@
+{
+  "observations": 420,
+  "universities": 60,
+  "evaluated_years": [
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "method": "fixed-model rolling evaluation; not independent model selection"
+}
