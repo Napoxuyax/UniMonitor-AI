@@ -1,0 +1,12 @@
+{
+  "history": 3,
+  "features": 15,
+  "train": 180,
+  "test": 60,
+  "test_year": 2025,
+  "winner": "Ridge 10.0",
+  "validation_years": [
+    2023,
+    2024
+  ]
+}
