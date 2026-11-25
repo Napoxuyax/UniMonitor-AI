@@ -1,0 +1,41 @@
+{
+  "source": "Синтетический учебный набор",
+  "kind": "demo",
+  "sha256_normalized_csv": "41b89d2add71f1d607bd6ce671f84565d92a72399d99275309e3c5597c2ef5f8",
+  "quality": {
+    "rows": 420,
+    "universities": 60,
+    "years": [
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+    ],
+    "missing": {
+      "university": 0,
+      "region": 0,
+      "year": 0,
+      "students": 0,
+      "score": 0,
+      "research": 0,
+      "income": 0,
+      "employment": 0
+    },
+    "duplicate_keys": 0,
+    "latest_year": 2025
+  },
+  "experiment_included": true,
+  "control_year": 2025,
+  "winner": "Ridge alpha=0.1",
+  "diagnostics": {
+    "n": 60,
+    "MAE": 0.9474257751406985,
+    "RMSE": 1.2250864139367665,
+    "bias": -0.33765540220117635,
+    "within_2pp": 0.9,
+    "max_error": 3.588080545698901
+  }
+}
