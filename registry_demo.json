@@ -1,0 +1,35 @@
+{
+  "id": "2e80587e7d224f5bba5e2e0ab1aea912",
+  "created_utc": "2026-11-25T09:44:48.733100+00:00",
+  "model": "Ridge alpha=1.0",
+  "source": "Синтетический учебный набор",
+  "kind": "demo",
+  "features": [
+    "students",
+    "score",
+    "research",
+    "income",
+    "employment"
+  ],
+  "sklearn": "1.8.0",
+  "train_rows": 300,
+  "test_rows": 60,
+  "production_rows": 360,
+  "test_year": 2025,
+  "metrics": {
+    "MAE": 1.0198979258432392,
+    "RMSE": 1.2992071429875403,
+    "R2": 0.9661897737141256
+  },
+  "baseline": {
+    "MAE": 1.372333333333333,
+    "RMSE": 1.7355296981997552,
+    "R2": 0.9396669365437663
+  },
+  "files": {
+    "evaluated.joblib": "f958c22a6857fb469fb2f1b4cdd0bb20405a2f1df53e80c32224470e92f5c486",
+    "production.joblib": "608175ecd00aa6612351c3f421677c4adcebf45a8734c5ea4e92f9851fa08889",
+    "predictions.csv": "25dc196239fea49733165cabe2a370204542191584dae21ac3656640008790ff",
+    "dataset.csv": "41b89d2add71f1d607bd6ce671f84565d92a72399d99275309e3c5597c2ef5f8"
+  }
+}

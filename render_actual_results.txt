@@ -1,0 +1,8 @@
+127.0.0.1 - - [25/Nov/2026 11:50:37] "POST /login HTTP/1.1" 303 -
+127.0.0.1 - - [25/Nov/2026 11:50:37] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [25/Nov/2026 11:50:38] "GET /actual-monitoring? HTTP/1.1" 200 -
+127.0.0.1 - - [25/Nov/2026 11:50:38] "GET /actual-monitoring?year=2025&region=%D0%A0%D0%B5%D1%81%D0%BF%D1%83%D0%B1%D0%BB%D0%B8%D0%BA%D0%B0+%D0%90%D0%B4%D1%8B%D0%B3%D0%B5%D1%8F HTTP/1.1" 200 -
+127.0.0.1 - - [25/Nov/2026 11:50:39] "GET /actual-monitoring?year=2020&id=1 HTTP/1.1" 200 -
+overview: HTTP response rendered
+region: HTTP response rendered
+history: HTTP response rendered

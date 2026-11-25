@@ -1,0 +1,6 @@
+{
+  "scope": "root Python files including utilities and browser checks; excluding tests",
+  "physical_nonblank_noncomment": 1454,
+  "logical_newline_tokens": 1405,
+  "note": "Not equivalent to algorithmic statements required by university"
+}

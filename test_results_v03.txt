@@ -1,0 +1,26 @@
+...........                                                              [100%]
+=============================== warnings summary ===============================
+tests/test_core.py::test_forecast
+  /opt/pyvenv/lib/python3.13/site-packages/sklearn/neural_network/_multilayer_perceptron.py:606: ConvergenceWarning: lbfgs failed to converge after 1000 iteration(s) (status=1):
+  STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT
+  
+  Increase the number of iterations to improve the convergence (max_iter=1000).
+  You might also want to scale the data as shown in:
+      https://scikit-learn.org/stable/modules/preprocessing.html
+    self.n_iter_ = _check_optimize_result("lbfgs", opt_res, self.max_iter)
+
+tests/test_research.py::test_temporal_experiment
+tests/test_research.py::test_temporal_experiment
+tests/test_research.py::test_temporal_experiment
+tests/test_research.py::test_temporal_experiment
+tests/test_research.py::test_temporal_experiment
+  /opt/pyvenv/lib/python3.13/site-packages/sklearn/neural_network/_multilayer_perceptron.py:606: ConvergenceWarning: lbfgs failed to converge after 2500 iteration(s) (status=1):
+  STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT
+  
+  Increase the number of iterations to improve the convergence (max_iter=2500).
+  You might also want to scale the data as shown in:
+      https://scikit-learn.org/stable/modules/preprocessing.html
+    self.n_iter_ = _check_optimize_result("lbfgs", opt_res, self.max_iter)
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+11 passed, 6 warnings in 10.56s

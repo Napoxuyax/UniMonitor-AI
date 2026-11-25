@@ -1,0 +1,12 @@
+127.0.0.1 - - [25/Nov/2026 09:35:03] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [25/Nov/2026 09:35:04] "GET /compare HTTP/1.1" 200 -
+127.0.0.1 - - [25/Nov/2026 09:35:04] "GET /anomalies HTTP/1.1" 200 -
+127.0.0.1 - - [25/Nov/2026 09:35:04] "GET /eda HTTP/1.1" 200 -
+127.0.0.1 - - [25/Nov/2026 09:35:08] "GET /forecast?run=1 HTTP/1.1" 200 -
+127.0.0.1 - - [25/Nov/2026 09:35:08] "GET /reports HTTP/1.1" 200 -
+01_overview: HTML rendered
+02_compare: HTML rendered
+03_anomalies: HTML rendered
+04_eda: HTML rendered
+05_forecast: HTML rendered
+06_reports: HTML rendered

@@ -1,0 +1,154 @@
+{
+  "files": [
+    {
+      "file": "anomaly_benchmark.py",
+      "physical_nonempty_noncomment": 94,
+      "logical_newlines": 83,
+      "ast_statements": 82
+    },
+    {
+      "file": "app.py",
+      "physical_nonempty_noncomment": 133,
+      "logical_newlines": 132,
+      "ast_statements": 152
+    },
+    {
+      "file": "browser_check.py",
+      "physical_nonempty_noncomment": 23,
+      "logical_newlines": 23,
+      "ast_statements": 39
+    },
+    {
+      "file": "cluster_diagnostics.py",
+      "physical_nonempty_noncomment": 36,
+      "logical_newlines": 33,
+      "ast_statements": 33
+    },
+    {
+      "file": "core.py",
+      "physical_nonempty_noncomment": 60,
+      "logical_newlines": 60,
+      "ast_statements": 72
+    },
+    {
+      "file": "decision.py",
+      "physical_nonempty_noncomment": 69,
+      "logical_newlines": 66,
+      "ast_statements": 66
+    },
+    {
+      "file": "eda.py",
+      "physical_nonempty_noncomment": 55,
+      "logical_newlines": 55,
+      "ast_statements": 60
+    },
+    {
+      "file": "import_monitoring.py",
+      "physical_nonempty_noncomment": 52,
+      "logical_newlines": 52,
+      "ast_statements": 59
+    },
+    {
+      "file": "lag_forecast.py",
+      "physical_nonempty_noncomment": 107,
+      "logical_newlines": 101,
+      "ast_statements": 98
+    },
+    {
+      "file": "make_demo.py",
+      "physical_nonempty_noncomment": 11,
+      "logical_newlines": 11,
+      "ast_statements": 11
+    },
+    {
+      "file": "model_registry.py",
+      "physical_nonempty_noncomment": 107,
+      "logical_newlines": 99,
+      "ast_statements": 99
+    },
+    {
+      "file": "operations.py",
+      "physical_nonempty_noncomment": 88,
+      "logical_newlines": 85,
+      "ast_statements": 82
+    },
+    {
+      "file": "peer_analysis.py",
+      "physical_nonempty_noncomment": 73,
+      "logical_newlines": 73,
+      "ast_statements": 72
+    },
+    {
+      "file": "release_tools.py",
+      "physical_nonempty_noncomment": 95,
+      "logical_newlines": 95,
+      "ast_statements": 94
+    },
+    {
+      "file": "render_check.py",
+      "physical_nonempty_noncomment": 20,
+      "logical_newlines": 20,
+      "ast_statements": 29
+    },
+    {
+      "file": "reporting.py",
+      "physical_nonempty_noncomment": 79,
+      "logical_newlines": 67,
+      "ast_statements": 67
+    },
+    {
+      "file": "research.py",
+      "physical_nonempty_noncomment": 68,
+      "logical_newlines": 63,
+      "ast_statements": 63
+    },
+    {
+      "file": "run_research.py",
+      "physical_nonempty_noncomment": 26,
+      "logical_newlines": 24,
+      "ast_statements": 42
+    },
+    {
+      "file": "scenario.py",
+      "physical_nonempty_noncomment": 69,
+      "logical_newlines": 65,
+      "ast_statements": 65
+    },
+    {
+      "file": "secure_web.py",
+      "physical_nonempty_noncomment": 251,
+      "logical_newlines": 251,
+      "ast_statements": 244
+    },
+    {
+      "file": "storage.py",
+      "physical_nonempty_noncomment": 83,
+      "logical_newlines": 81,
+      "ast_statements": 82
+    },
+    {
+      "file": "temporal_analysis.py",
+      "physical_nonempty_noncomment": 89,
+      "logical_newlines": 83,
+      "ast_statements": 82
+    },
+    {
+      "file": "university_profile.py",
+      "physical_nonempty_noncomment": 74,
+      "logical_newlines": 71,
+      "ast_statements": 72
+    },
+    {
+      "file": "web_local.py",
+      "physical_nonempty_noncomment": 87,
+      "logical_newlines": 87,
+      "ast_statements": 115
+    }
+  ],
+  "totals": {
+    "physical_nonempty_noncomment": 1849,
+    "logical_newlines": 1780,
+    "ast_statements": 1880
+  },
+  "scope": "Корневые Python-модули, включая вспомогательные утилиты, без тестов. Не подтверждает 2000 алгоритмических строк."
+}
